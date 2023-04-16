@@ -1,0 +1,231 @@
+.logo {
+    padding: 10px;
+}
+main {
+    margin: 0px auto 50px auto;
+    text-align: center;
+    background-image: url('https://images.unsplash.com/photo-1547562721-421c30aae95d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+    background-size: cover;
+    text-align: center;
+  
+}
+h1 {
+    padding-top: 150px;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-weight: 300;
+    letter-spacing: 1.1px;
+    text-align: center;
+    color: #1fc6df;
+    margin: auto;
+}
+h2{
+    color: #1fc6df;
+    
+}
+form {
+    margin-top: 50px;
+    height: 100px;
+}
+#city {
+    border: solid 2.5px #ffffff;
+    opacity: 0.9;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: 0.4px;
+    text-align: left;
+}
+#button {
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    cursor: pointer;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Varela Round", sans-serif;
+}
+.hero {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#searchBox {
+  border-radius: 55px;
+  padding: 30px;
+     background: #f0f3ff;
+  display: flex;
+  align-items: center;
+  box-shadow: 6px 6px 10px -1px rgb(235, 233, 233),
+    -6px -6px 10px -1px rgba(249, 246, 246, 0.7);
+}
+#googleIcon {
+  width: 50px;
+  cursor: pointer;
+}
+.goIcon{
+    width: 50px;
+    cursor: pointer;
+}
+.mic-icon {
+  width: 0px;
+  transition: 0.5s;
+  transition-delay: 0.5s;
+}
+input {
+  font-size: 20px;
+  width: 0px;
+  border: 0;
+  background: transparent;
+  outline: none;
+  transition: 2s;
+}
+.active input {
+  width: 500px;
+  padding: 12px 20px;
+}
+.active .mic-icon {
+  width: 30px;
+}
+.container {
+    max-width: 900px;
+    margin: auto;
+    visibility: hidden;
+}
+#destination {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0.9px;
+    text-align: left;
+    color: #27b7c1;
+    padding-left: 80px;
+}
+#s{
+    width: 50px;
+  cursor: pointer;
+}
+#click3,#s1{
+    width: 20px;
+  cursor: pointer;
+}
+.sectiontitle {
+    width: 300px;
+    align-items: right;
+}
+.sectiontitle h2 {
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 3.4px;
+    text-align: left;
+    color: #4a4a4a;
+}
+.weather h2 {
+    position: relative;
+    padding: 5px;
+}
+.weather h2 {
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 0.78;
+    text-align: left;
+    color: #4a4a4a;
+}
+.weather {
+    width: 250px;
+    height: 280px;
+    padding: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+.weathericon {
+    width: 150px;
+    height: 150px;
+}
+#weather {
+    display: flex;
+    justify-content: space-between;
+    min-height: 170px;
+    position : relative;
+}
+#weather0 {
+    display: flex;
+    padding-left: 140px;
+    padding-top: 10px;
+}
+#weatherk {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+.venue {
+    width: 275px;
+    padding: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.venueimage {
+    margin-top: 20px;
+}
+#venues h2 {
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 0.77;
+    text-align: center;
+    padding-top: 5px;
+}
+#venues {
+    display: flex;
+    justify-content: space-around;
+    min-height: 250px;
+}
+#venuesk {
+    display: flex;
+    padding-left: 140px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#venues0 {
+    display: flex;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 860px) {
+    main {
+        background-image: url('https://images.unsplash.com/photo-1587209900507-b13102719674?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+    }
+    h1 {
+        padding-top: 80px;
+        font-size: 32px;
+    }
+    form {
+        margin-top: 30px;
+        padding-bottom: 10px;
+    }
+     #weather {
+        display: flex;
+        flex-direction: column;
+    }
+    .venue,.weather {
+        margin: 10px auto;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    .venue,.weather {
+        padding: 100px 20px;
+        height: 100%;
+    }
+    .sectiontitle, .sectiontitle h2, #destination {
+        margin: auto;
+        text-align: center;
+    }
+}
